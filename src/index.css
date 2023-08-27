@@ -15,7 +15,9 @@ model-viewer {
   display: flex;
   height: 50vh;
   width: 100%;
-top: -60px;
+  top: -60px;
   position: relative;
 
 }
+
+
