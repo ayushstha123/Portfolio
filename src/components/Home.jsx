@@ -141,7 +141,6 @@ const Home = () => {
         </div>
 
       </section>
-
         <ContactUs/>
 
     </div>
