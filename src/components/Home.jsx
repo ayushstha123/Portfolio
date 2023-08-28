@@ -28,7 +28,7 @@ const Home = () => {
           <h3 class="py-2 text-xl text-gray-200 dark:text-blue-300 md:text-3xl">Front-end developer</h3>
           <p class="text-md mx-auto text-gray-200 max-w-xl py-5 leading-5 text-gray-800 dark:text-blue-300 md:text-xl">I'm a dedicated front-end developer fueled by the excitement of crafting user-friendly and visually captivating web experiences</p>
           <div class="flex justify-center gap-5 py-3 text-4xl">
-            <a href='' class="bx bxl-facebook-circle dark:text-white"></a>
+            <a href='https://www.facebook.com/ayush.stha.5680/' class="bx bxl-facebook-circle dark:text-white"></a>
             <a href='https://github.com/ayushstha123' class="bx bxl-github dark:text-white"></a>
             <a href='https://www.linkedin.com/in/ayush-shrestha-480a65194/' class="bx bxl-linkedin-square dark:text-white"></a>
           </div>
@@ -141,9 +141,25 @@ const Home = () => {
         </div>
 
       </section>
+      <section class="bg-white dark:bg-gray-900">
         <ContactUs/>
-
+      </section>
+        <footer class="bg-white dark:bg-blue-800">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-gray-500 sm:text-center dark:text-white">Ayush Shrestha 
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-white sm:mt-0">
+        <li>
+            <p class="mr-4 hover:underline md:mr-6 ">ayyush227@gmail.com</p>
+        </li>
+        <li>
+            <a href="https://www.artstation.com/ayyushstha" class="mr-4 hover:underline md:mr-6">Visit my Art page</a>
+        </li>
+    </ul>
     </div>
+</footer>
+    </div>
+    
   )
 }
 
