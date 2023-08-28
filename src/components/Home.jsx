@@ -11,14 +11,14 @@ const Home = () => {
         <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
       </head>
       <nav class="fixed mb-5 flex w-full justify-between bg-blue-800 px-5 py-5 text-white dark:bg-black">
-        <h1 class="font-burtons text-xl font-thin">Ayush</h1>
+        <h1 class="font-burtons text-xl font-thin">Portfolio</h1>
         <ul class="flex items-center">
           <li>
             <button onClick={() => setDarkMode(!darkMode)}
                   class="bx bxs-moon"></button>
           </li>
           <li>
-            <a class="ml-8 rounded-md border-none bg-gradient-to-r from-blue-600 to-blue-500 px-4 py-2 text-white" href="#"> Resume </a>
+            <a class="ml-8 rounded-md border-none bg-gradient-to-r from-blue-600 to-blue-500 px-4 py-2 text-white" download="AyushShrestha_Portfolio.pdf" href="./files/AyushShrestha_Portfolio.pdf"> Resume </a>
           </li>
         </ul>
       </nav>
@@ -34,7 +34,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <model-viewer src="./shiba.glb" camera-controls disable-pan shadow-intensity="1" auto-rotate disable-tap disable-zoom></model-viewer>
+          <model-viewer src="./files/shiba.glb" camera-controls disable-pan shadow-intensity="1" auto-rotate disable-tap disable-zoom></model-viewer>
         </div>
       </section>
       <section class="bg-white dark:bg-sky-800" >

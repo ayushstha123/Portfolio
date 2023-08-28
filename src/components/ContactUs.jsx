@@ -9,8 +9,7 @@ export const ContactUs = () => {
 
     emailjs.sendForm('service_n22ty0c', 'template_5ikxihr', form.current, 'u88CLk943MDSCQhnt')
       .then((result) => {
-          console.log(result.text);
-          alert("Message sent");
+       alert("Message sent Successfully");
       }, (error) => {
           console.log(error.text);
       });
