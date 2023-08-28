@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import "../index.css";
+import { ContactUs } from './ContactUs';
+
 
 const Home = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -42,7 +44,7 @@ const Home = () => {
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">I offer from a wide range of services, including brand design, programming and teaching.</p>
           <div class="gap-10 lg:flex justify-center">
 
-            <div class="my-8 max-w-xs flex-auto rounded-2xl p-6 text-center bg-blue-300 shadow-2xl dark:bg-white">
+            <div class="my-8 max-w-xs flex-auto rounded-2xl p-6 text-center hover:bg-blue-200  bg-blue-300 shadow-2xl dark:bg-white">
               <img class="mx-auto w-1/2 object-contain md:object-scale-down" src="https://static.vecteezy.com/system/resources/previews/015/099/616/non_2x/3d-website-language-programming-code-icon-illustration-png.png" width="50" height="50" alt="" />
               <h3 class="pb-2 pt-8 text-lg font-medium">Front End Development</h3>
               <p>Creating various interactive and responsive application with the help of front end programming language.</p>
@@ -54,7 +56,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div class="my-8 max-w-xs flex-auto rounded-2xl p-6 bg-green-300 text-center shadow-2xl dark:bg-white">
+            <div class="my-8 max-w-xs flex-auto rounded-2xl p-6 hover:bg-green-400  bg-green-300 text-center shadow-2xl dark:bg-white">
               <img class="mx-auto mt-10 w-1/2 object-contain md:object-scale-down" src="https://miro.medium.com/v2/resize:fit:678/0*kxPYwfJmkXZ3iCWy.png" width="50" height="50" alt="" />
               <h3 class="pb-2 pt-8 text-lg font-medium">MERN STACK</h3>
               <p>Creating beautiful fully working website with mern stack.</p>
@@ -64,7 +66,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div class="my-8 max-w-xs flex-auto rounded-2xl p-6 bg-yellow-300 text-center shadow-2xl dark:bg-white">
+            <div class="my-8 max-w-xs flex-auto rounded-2xl p-6 hover:bg-yellow-400  bg-yellow-300 text-center shadow-2xl dark:bg-white">
               <img class="mx-auto w-1/2 object-contain md:object-scale-down" src="https://cdn3d.iconscout.com/3d/premium/thumb/web-development-5402863-4521476.png?f=webp" width="50" height="50" alt="" />
               <h3 class="pb-2 pt-8 text-lg font-medium">Back-end Development</h3>
               <p>Creating elegant designs suited for your needs following core design theory.</p>
@@ -81,7 +83,7 @@ const Home = () => {
 
 
 
-      <section className='px-5 py-10 bg-cyan-200 dark:bg-indigo-900'>
+      <section className='px-5 py-10 bg-indigo-100 dark:bg-indigo-900'>
         <div className='pt-10'>
           <h3 class="py-1 text-3xl text-center font-bold dark:text-white">Projects</h3>
           <p class="text-md lg:px-20 py-10 px-3 dark:text-white leading-8">Here are some of my projects that ive worked in through out the time. The projects are done with various programming languages that are given below of it. There is a preview of the website of the projects also.</p>
@@ -100,32 +102,32 @@ const Home = () => {
           </div>
         </div>
 
-        <div class="bg-cyan-600 mx-auto my-10 max-w-md overflow-hidden rounded-xl shadow-md md:max-w-4xl">
-          <div class="md:flex">
+        <div class="mx-auto my-10 max-w-md overflow-hidden rounded-xl shadow-md md:max-w-4xl">
+          <div class="bg-green-400 md:flex">
             <div class="md:shrink-0">
               <img class="h-48 w-full object-cover md:h-full md:w-48" src="./img/todolist.png" alt="Modern building architecture" />
             </div>
             <div class="p-8">
-              <a href="https://ayushstha123.github.io/stoicquotegen/" class="text-sm font-semibold uppercase tracking-wide text-white hover:underline cursor-pointer">Preview</a>
+              <a href="https://ayushstha123.github.io/Todolst/" class="text-sm font-semibold uppercase tracking-wide text-white hover:underline cursor-pointer">Preview</a>
               <h2 href="#" class="mt-1 block text-lg font-bold leading-tight text-black ">Todo list</h2>
               <p class="mt-2">Here is a Todolist that is made with javascript.</p>
             </div>
           </div>
         </div>
-        <div class="bg-red-500 mx-auto my-10 max-w-md overflow-hidden rounded-xl shadow-md md:max-w-4xl">
-          <div class="md:flex">
+        <div class=" mx-auto my-10 max-w-md overflow-hidden rounded-xl shadow-md md:max-w-4xl">
+          <div class="bg-blue-400 md:flex">
             <div class="md:shrink-0">
-              <img class="h-48 w-full object-cover md:h-full md:w-48" src="./img/tipcalculator.png" alt="Modern building architecture" />
+              <img class="h-48 w-full object-cover md:h-full md:w-48" src="./img/tipcalculator.png" alt="Tip calculator" />
             </div>
             <div class="p-8">
-              <a href="https://ayushstha123.github.io/stoicquotegen/" class=" text-sm font-semibold uppercase tracking-wide text-white hover:underline cursor-pointer">Preview</a>
+              <a href="https://ayushstha123.github.io/Tip_calculator/" class=" text-sm font-semibold uppercase tracking-wide text-white hover:underline cursor-pointer">Preview</a>
               <h2 href="#" class="mt-1 block text-lg font-bold leading-tight text-black ">Tip Calculator</h2>
               <p class="mt-2">Here is a Tip calculator that calculates tips per person and gives the total per person.It is made with javascript</p>
             </div>
           </div>
         </div>
 
-        <div class="bg-blue-300 mx-auto my-10 max-w-md overflow-hidden rounded-xl shadow-md md:max-w-4xl">
+        <div class="bg-green-400 mx-auto my-10 max-w-md overflow-hidden rounded-xl shadow-md md:max-w-4xl">
           <div class="md:flex">
             <div class="md:shrink-0">
               <img class="h-48 w-full object-cover md:h-full md:w-48" src="./img/flybuy.png" alt="Modern building architecture" />
@@ -139,6 +141,9 @@ const Home = () => {
         </div>
 
       </section>
+
+        <ContactUs/>
+
     </div>
   )
 }
